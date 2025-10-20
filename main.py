@@ -1,8 +1,7 @@
-import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = "8465483999:AAErmPE_a-mqlYyo8fvR-lMnav68Jsipmqs"
 ADMIN_USERNAME = "Richard_fx010"
 
 # ---- Start Command ----
@@ -134,5 +133,4 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
-
     main()
